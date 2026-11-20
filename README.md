@@ -50,15 +50,15 @@ Five runnable browser examples, with representative images from the repository. 
 
 <table>
   <tr>
-    <td width="50%" align="center"><a href="demos/black-hole/"><img src="demos/black-hole_Both.jpg" alt="Black-hole visualization, model comparison" width="100%"></a><br><strong>Black-hole visualization</strong></td>
-    <td width="50%" align="center"><a href="demos/rocket/"><img src="demos/rocket_Both.jpg" alt="Reusable booster recovery, model comparison" width="100%"></a><br><strong>Reusable-booster recovery</strong></td>
+    <td width="50%" align="center"><a href="demos/black-hole/"><img src="demos/black-hole_Both.gif" alt="Black-hole visualization, model comparison" width="100%"></a><br><strong>Black-hole visualization</strong></td>
+    <td width="50%" align="center"><a href="demos/rocket/"><img src="demos/rocket_Both.gif" alt="Reusable booster recovery, model comparison" width="100%"></a><br><strong>Reusable-booster recovery</strong></td>
   </tr>
   <tr>
-    <td align="center"><a href="demos/wormhole/"><img src="demos/wormhole_Both.jpg" alt="Wormhole visualization, model comparison" width="100%"></a><br><strong>Wormhole exploration</strong></td>
-    <td align="center"><a href="demos/racing-game/"><img src="demos/racing-game_orbit_Both.jpg" alt="Interactive racing, model comparison" width="100%"></a><br><strong>Interactive racing</strong></td>
+    <td align="center"><a href="demos/wormhole/"><img src="demos/wormhole_Both.gif" alt="Wormhole visualization, model comparison" width="100%"></a><br><strong>Wormhole exploration</strong></td>
+    <td align="center"><a href="demos/racing-game/"><img src="demos/racing-game_orbit_Both.gif" alt="Interactive racing, model comparison" width="100%"></a><br><strong>Interactive racing</strong></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><a href="demos/pelican/"><img src="demos/pelican_DeepSeek.jpg" alt="Cycling pelican produced with DeepSeek V4.1 Flash 1017" width="65%"></a><br><strong>Cycling pelican</strong> · DeepSeek V4.1 Flash 1017</td>
+    <td colspan="2" align="center"><a href="demos/pelican/"><img src="demos/pelican_DeepSeek.gif" alt="Cycling pelican produced with DeepSeek V4.1 Flash 1017" width="65%"></a><br><strong>Cycling pelican</strong> · DeepSeek V4.1 Flash 1017</td>
   </tr>
 </table>
 
