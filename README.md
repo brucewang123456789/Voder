@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/brucewang123456789/Voder/voder/logo.png" width="120" alt="Voder logo">
+  <img src="logo.png" width="120" alt="Voder logo">
 </p>
 
 <h1 align="center">Voder</h1>
 
-<p align="center"><strong>An open-source coding agent for verified code changes</strong></p>
+<p align="center"><strong>Evidence-governed autonomous coding, from proposal to verified delivery</strong></p>
 
 <p align="center">
   Led by <a href="https://www.linkedin.com/in/libo-wang-1612801a2"><strong>Libo Wang</strong></a> ·
@@ -21,14 +21,46 @@
 <p align="center">
   <a href="#install-in-vs-code">Install</a> ·
   <a href="#configure-voder">Configure</a> ·
-  <a href="#how-vgr-works">How VGR works</a> ·
+  <a href="#why-voder">Why Voder</a> ·
+  <a href="#interactive-3d-demos">Demos</a> ·
+  <a href="#benchmark-evidence">Benchmarks</a> ·
+  <a href="#how-vgr-works">Architecture</a> ·
   <a href="#build-from-source-on-linux">Build from source</a> ·
   <a href="#contact">Contact</a>
 </p>
 
-**VeriLoop-Governed Recurrence (VGR) separates proposal generation from authorization to change the workspace: the model proposes and revises a change, and the Rust governance layer authorizes it only after independent verification of that exact candidate.**
+Voder is an **open-source autonomous coding agent** built around **VeriLoop-Governed Recurrence (VGR)**. It combines a Pi-derived model-session runtime with an independently governed execution path: the model can propose and revise code, but **a proposal cannot authorize its own acceptance or writeback**. The host binds exact candidate bytes and approved scope; isolated checks, Rust-native evidence admission, independent commit confirmation, and destination verification govern what reaches the workspace.
 
-Voder can inspect repositories, implement changes and run project checks. In verified mode, it binds each proposal to the approved files and their starting contents, runs the configured checks in isolation, and records the evidence for commitment and delivery. Review the verified diff and evidence in VS Code, or integrate the harness through the CLI, JSON-RPC interface or SDK. [How VGR works](#how-vgr-works) · [Apache-2.0](#license)
+Voder is also an engineering research platform for **governed self-modification and the long-term exploration of safe artificial superintelligent (ASI) agents**. Its present controls apply to software-state changes; they do **not** establish ASI capability or general AI safety. [Technical report](https://openreview.net/forum?id=11hpVvFso1&noteId=11hpVvFso1) · [VGR architecture](#how-vgr-works) · [Apache-2.0](#license)
+
+## Why Voder
+
+| Capability | What Voder implements |
+|---|---|
+| **Autonomous engineering** | Repository inspection, code proposals, project checks, and VS Code / CLI / SDK access built around a reusable model-session runtime. |
+| **Proposal ≠ permission** | Operator-pinned file scope and source hashes; isolated verification of the **exact candidate** before admission. |
+| **Evidence-governed acceptance** | Rust VGR records trusted observations, performs a fresh audit, and requires independent native commit confirmation. |
+| **Verified delivery & recovery** | Rechecks destination bytes before writeback; journals durable actions and fences uncertain outcomes against unsafe replay. |
+
+Unlike a conventional *generate → write → test* sequence, Voder's verified path is **propose → isolate → verify → authorize → deliver**. This is a specific engineering control boundary, not a claim that every possible defect or harmful action is prevented.
+
+### Built with Voder · interactive 3D applications
+
+Five runnable browser examples, with representative images from the repository. Images demonstrate delivered artifacts; they are **not** AI safety or scientific-simulation evaluations. [Explore the source files and model-specific HTML demos](#interactive-3d-demos).
+
+<table>
+  <tr>
+    <td width="50%" align="center"><a href="demos/black-hole/"><img src="demos/black-hole_Both.jpg" alt="Black-hole visualization, model comparison" width="100%"></a><br><strong>Black-hole visualization</strong></td>
+    <td width="50%" align="center"><a href="demos/rocket/"><img src="demos/rocket_Both.jpg" alt="Reusable booster recovery, model comparison" width="100%"></a><br><strong>Reusable-booster recovery</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="demos/wormhole/"><img src="demos/wormhole_Both.jpg" alt="Wormhole visualization, model comparison" width="100%"></a><br><strong>Wormhole exploration</strong></td>
+    <td align="center"><a href="demos/racing-game/"><img src="demos/racing-game_orbit_Both.jpg" alt="Interactive racing, model comparison" width="100%"></a><br><strong>Interactive racing</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><a href="demos/pelican/"><img src="demos/pelican_DeepSeek.jpg" alt="Cycling pelican produced with DeepSeek V4.1 Flash 1017" width="65%"></a><br><strong>Cycling pelican</strong> · DeepSeek V4.1 Flash 1017</td>
+  </tr>
+</table>
 
 ## Install in VS Code
 
@@ -286,26 +318,26 @@ The technical report records fixed-denominator local reward audits under the aut
 
 | Benchmark | Confirmed passes | Score | Retained records |
 |---|---:|---:|---|
-| DeepSWE v1.1 | 89 / 113 | **78.8%** | [DeepSWE v1.1 evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results/deepswe-1.1) |
-| Terminal-Bench 3.0 | 31 / 74 | **41.9%** | [Terminal-Bench 3.0 evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results/terminal-bench-3.0) |
-| Terminal-Bench 4.0 | 30 / 66 | **45.5%** | [Terminal-Bench 4.0 evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results/terminal-bench-4.0) |
-| SWE-Marathon | 9 / 20 | **45.0%** | [SWE-Marathon evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results/swe-marathon) |
+| DeepSWE v1.1 | 89 / 113 | **78.8%** | [DeepSWE v1.1 evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results/deepswe-1.1) |
+| Terminal-Bench 3.0 | 31 / 74 | **41.9%** | [Terminal-Bench 3.0 evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results/terminal-bench-3.0) |
+| Terminal-Bench 4.0 | 30 / 66 | **45.5%** | [Terminal-Bench 4.0 evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results/terminal-bench-4.0) |
+| SWE-Marathon | 9 / 20 | **45.0%** | [SWE-Marathon evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results/swe-marathon) |
 
-These are author-reported reward audits. Official leaderboard standing is outside their scope. SWE-Marathon used reference assistance as an internal control. The public folders contain retained records and may cover only a subset of a suite. Use the report's denominator and inspect `official_evaluation.json` for each task. [Browse all retained evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results).
+These are author-reported reward audits. Official leaderboard standing is outside their scope. SWE-Marathon used reference assistance as an internal control. The public folders contain retained records and may cover only a subset of a suite. Use the report's denominator and inspect `official_evaluation.json` for each task. [Browse all retained evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results).
 
 The report separately records **318/318** component checks, **420/420** stress executions, **11/11** SDK recovery assertions and **3/3** blocked-state daemon restart cases. The **93.3%–98.7%** context reduction is an estimate from synthetic histories. It measures estimated token volume under those fixtures.
 
 ## Interactive 3D demos
 
-Download the HTML for a demo and open it in a browser. The files are linked individually for inspection and comparison. [Browse all demo files](https://github.com/brucewang123456789/Voder/tree/voder/demos).
+Download the HTML for a demo and open it in a browser. The files are linked individually for inspection and comparison. [Browse all demo files](https://github.com/brucewang123456789/Voder/tree/main/demos).
 
 | Demo | DeepSeek V4.1 Flash 1017 | GPT-6 Astra |
 |---|---|---|
-| Cycling pelican | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/pelican/deepseek-v4.1-flash-1017.html) | — |
-| Reusable-booster recovery | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/rocket/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/rocket/gpt-6-astra.html) |
-| Black-hole visualization | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/black-hole/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/black-hole/gpt-6-astra.html) |
-| Wormhole exploration | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/wormhole/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/wormhole/gpt-6-astra.html) |
-| Interactive racing | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/racing-game/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/racing-game/gpt-6-astra.html) |
+| Cycling pelican | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/pelican/deepseek-v4.1-flash-1017.html) | — |
+| Reusable-booster recovery | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/rocket/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/rocket/gpt-6-astra.html) |
+| Black-hole visualization | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/black-hole/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/black-hole/gpt-6-astra.html) |
+| Wormhole exploration | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/wormhole/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/wormhole/gpt-6-astra.html) |
+| Interactive racing | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/racing-game/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/racing-game/gpt-6-astra.html) |
 
 These applications demonstrate delivered browser artifacts. The booster and astronomy scenes are authored visualizations. Their scope does not include aerospace or relativistic simulation validation.
 
