@@ -333,26 +333,26 @@ The technical report records fixed-denominator local reward audits under the aut
 
 | Benchmark | Confirmed passes | Score | Retained records |
 |---|---:|---:|---|
-| DeepSWE v1.1 | 89 / 113 | **78.8%** | [DeepSWE v1.1 evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results/deepswe-1.1) |
-| Terminal-Bench 3.0 | 31 / 74 | **41.9%** | [Terminal-Bench 3.0 evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results/terminal-bench-3.0) |
-| Terminal-Bench 4.0 | 30 / 66 | **45.5%** | [Terminal-Bench 4.0 evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results/terminal-bench-4.0) |
-| SWE-Marathon | 9 / 20 | **45.0%** | [SWE-Marathon evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results/swe-marathon) |
+| DeepSWE v1.1 | 89 / 113 | **78.8%** | [DeepSWE v1.1 evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results/deepswe-1.1) |
+| Terminal-Bench 3.0 | 31 / 74 | **41.9%** | [Terminal-Bench 3.0 evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results/terminal-bench-3.0) |
+| Terminal-Bench 4.0 | 30 / 66 | **45.5%** | [Terminal-Bench 4.0 evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results/terminal-bench-4.0) |
+| SWE-Marathon | 9 / 20 | **45.0%** | [SWE-Marathon evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results/swe-marathon) |
 
-These are author-reported reward audits. Official leaderboard standing is outside their scope. SWE-Marathon used reference assistance as an internal control. The public folders contain retained records and may cover only a subset of a suite. Use the report's denominator and inspect `official_evaluation.json` for each task. [Browse all retained evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results).
+These are author-reported reward audits. Official leaderboard standing is outside their scope. SWE-Marathon used reference assistance as an internal control. The public folders contain retained records and may cover only a subset of a suite. Use the report's denominator and inspect `official_evaluation.json` for each task. [Browse all retained evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results).
 
 The report separately records **318/318** component checks, **420/420** stress executions, **11/11** SDK recovery assertions and **3/3** blocked-state daemon restart cases. The **93.3%–98.7%** context reduction is an estimate from synthetic histories. It measures estimated token volume under those fixtures.
 
 ## Interactive 3D demos
 
-Download the HTML for a demo and open it in a browser. The files are linked individually for inspection and comparison. [Browse all demo files](https://github.com/brucewang123456789/Voder/tree/voder/demos).
+Download the HTML for a demo and open it in a browser. The files are linked individually for inspection and comparison. [Browse all demo files](https://github.com/brucewang123456789/Voder/tree/main/demos).
 
 | Demo | DeepSeek V4.1 Flash 1017 | GPT-6 Astra |
 |---|---|---|
-| Cycling pelican | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/pelican/deepseek-v4.1-flash-1017.html) | — |
-| Reusable-booster recovery | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/rocket/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/rocket/gpt-6-astra.html) |
-| Black-hole visualization | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/black-hole/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/black-hole/gpt-6-astra.html) |
-| Wormhole exploration | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/wormhole/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/wormhole/gpt-6-astra.html) |
-| Interactive racing | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/racing-game/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/racing-game/gpt-6-astra.html) |
+| Cycling pelican | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/pelican/deepseek-v4.1-flash-1017.html) | — |
+| Reusable-booster recovery | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/rocket/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/rocket/gpt-6-astra.html) |
+| Black-hole visualization | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/black-hole/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/black-hole/gpt-6-astra.html) |
+| Wormhole exploration | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/wormhole/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/wormhole/gpt-6-astra.html) |
+| Interactive racing | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/racing-game/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/racing-game/gpt-6-astra.html) |
 
 These applications demonstrate delivered browser artifacts. The booster and astronomy scenes are authored visualizations. Their scope does not include aerospace or relativistic simulation validation.
 
