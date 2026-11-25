@@ -30,7 +30,7 @@
   <a href="#contact">Contact</a>
 </p>
 
-**Available on the Visual Studio Code Marketplace.** [Install Voder](https://marketplace.visualstudio.com/items?itemName=veriloop.voder-vscode) directly in VS Code, or download the standalone VSIX from [GitHub Releases](https://github.com/brucewang123456789/Voder/releases/tag/v0.1.49).
+**Available on the Visual Studio Code Marketplace.** [Install Voder](https://marketplace.visualstudio.com/items?itemName=veriloop.voder-vscode) directly in VS Code.
 
 Voder is an **open-source autonomous coding agent** built around **VeriLoop-Governed Recurrence (VGR)**. It combines a Pi-derived model-session runtime with an independently governed execution path: the model can propose and revise code, but **a proposal cannot authorize its own acceptance or writeback**. The host binds exact candidate bytes and approved scope; isolated checks, Rust-native evidence admission, independent commit confirmation, and destination verification govern what reaches the workspace.
 
@@ -69,7 +69,7 @@ Five runnable browser examples, with representative images from the repository. 
 
 **[Download and install Voder from the Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=veriloop.voder-vscode)**
 
-**Release 0.1.49** · **VS Code 1.105.0 or later** · Extension ID: `veriloop.voder-vscode`.
+**Version 0.1.49** · **VS Code 1.105.0 or later** · Extension ID: `veriloop.voder-vscode`.
 
 ### Install from the Marketplace
 
@@ -100,14 +100,6 @@ code --install-extension veriloop.voder-vscode
 | Linux, including Remote SSH or WSL | Linux x64 |
 
 The standard installation includes Node.js and native components. A custom source-runtime deployment needs Node.js 22.19 or later and the matching native binaries. Settings, private configuration files and paths belong to the workspace host. In Remote SSH, that is the remote machine.
-
-### Manual VSIX installation
-
-**Release v0.1.49.** The [GitHub release](https://github.com/brucewang123456789/Voder/releases/tag/v0.1.49) includes a Windows-focused update for Git workspace path matching and Modal SDK loading. Windows local projects use the bundled local host runtime; Remote SSH workspaces continue to use the runtime on the remote Linux workspace host. Treat these as separate execution environments: a successful Remote SSH task does not establish that a local Windows task has passed the same end-to-end checks.
-
-For the exact v0.1.49 release artifact, download [Voder.vsix](https://github.com/brucewang123456789/Voder/releases/download/v0.1.49/Voder.vsix). The release asset was verified at publication with SHA-256 `c763a0dd1d74e7a5afbc40df94e08ca22eb5b768c6fa8c35f5710c7f71185f75`. This integrity check does not certify every native runtime or local writeback scenario.
-
-To install the downloaded package, open the Extensions view, select **… → Install from VSIX…**, and choose `Voder.vsix`. Alternatively, run `code --install-extension Voder.vsix`.
 
 ## Configure Voder
 
