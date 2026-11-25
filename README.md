@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=veriloop.voder-vscode"><img alt="Install from the VS Code Marketplace" src="https://img.shields.io/badge/VS_Code_Marketplace-005FA3?style=flat-square&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS40NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNSAyLjVoNm0tMyAydjZtLTIuNy0yLjdMOCAxMC41bDIuNy0yLjdNMi41IDExdjIuNWgxMVYxMSIvPjwvc3ZnPg%3D%3D"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=veriloop.voder-vscode"><img alt="Install from the VS Code Marketplace" src="https://img.shields.io/badge/Install_in_VS_Code-005FA3?style=flat-square&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS40NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNSAyLjVoNm0tMyAydjZtLTIuNy0yLjdMOCAxMC41bDIuNy0yLjdNMi41IDExdjIuNWgxMVYxMSIvPjwvc3ZnPg%3D%3D"></a>
   <a href="https://openreview.net/forum?id=11hpVvFso1&amp;noteId=11hpVvFso1"><img alt="Read the technical report on OpenReview" src="https://img.shields.io/badge/Technical_Report-344054?style=flat-square&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS40NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNCAxLjhoNS4ybDIuOCAyLjh2OS42SDR6TTkgMnYzaDNNNiA4aDRtLTQgMi41aDQiLz48L3N2Zz4%3D"></a>
   <a href="#interactive-3d-demos"><img alt="Explore interactive 3D demos" src="https://img.shields.io/badge/3D_Demos-344054?style=flat-square&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS40NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJtOCAxLjcgNS41IDMuMXY2LjRMOCAxNC4zbC01LjUtMy4xVjQuOHpNMi41IDQuOCA4IDhsNS41LTMuMk04IDh2Ni4zIi8%2BPC9zdmc%2B"></a>
   <a href="#benchmark-evidence"><img alt="Review benchmark evidence" src="https://img.shields.io/badge/Benchmark_Evidence-344054?style=flat-square&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS40NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMi41IDIuNXYxMWgxMU01LjUgMTAuNVY4bTMgMi41VjUuNW0zIDVWMyIvPjwvc3ZnPg%3D%3D"></a>
@@ -26,8 +26,11 @@
   <a href="#benchmark-evidence">Benchmarks</a> ·
   <a href="#how-vgr-works">Architecture</a> ·
   <a href="#build-from-source-on-linux">Build from source</a> ·
+  <a href="#community-recognition">Community</a> ·
   <a href="#contact">Contact</a>
 </p>
+
+**Available on the Visual Studio Code Marketplace.** [Install Voder](https://marketplace.visualstudio.com/items?itemName=veriloop.voder-vscode) directly in VS Code, or download the standalone VSIX from [GitHub Releases](https://github.com/brucewang123456789/Voder/releases/tag/v0.1.49).
 
 Voder is an **open-source autonomous coding agent** built around **VeriLoop-Governed Recurrence (VGR)**. It combines a Pi-derived model-session runtime with an independently governed execution path: the model can propose and revise code, but **a proposal cannot authorize its own acceptance or writeback**. The host binds exact candidate bytes and approved scope; isolated checks, Rust-native evidence admission, independent commit confirmation, and destination verification govern what reaches the workspace.
 
@@ -64,7 +67,13 @@ Five runnable browser examples, with representative images from the repository. 
 
 ## Install in VS Code
 
-**Marketplace release 0.1.49** · **VS Code 1.105.0 or later** · extension ID `veriloop.voder-vscode`.
+**[Download and install Voder from the Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=veriloop.voder-vscode)**
+
+**Release 0.1.49** · **VS Code 1.105.0 or later** · Extension ID: `veriloop.voder-vscode`.
+
+### Install from the Marketplace
+
+Open the official listing above and select **Install**, or follow these steps directly in VS Code.
 
 1. Open **Extensions** in VS Code and search for `@id:veriloop.voder-vscode`.
 2. Install **Voder – VeriLoop’s coding agent**. For a Remote SSH or WSL project, install Voder on the workspace host shown in the Extensions view.
@@ -76,7 +85,9 @@ Five runnable browser examples, with representative images from the repository. 
 
 Substitute an existing file in your project. For the write task, review the approved file scope and validation command, then open **Voder: Inspect Verified Session Diff** after delivery.
 
-You can also open the [Marketplace listing](https://marketplace.visualstudio.com/items?itemName=veriloop.voder-vscode) or install into the VS Code environment targeted by its CLI.
+### Install from the command line
+
+Alternatively, install the same Marketplace extension into the VS Code environment targeted by its CLI:
 
 ```bash
 code --install-extension veriloop.voder-vscode
@@ -90,9 +101,13 @@ code --install-extension veriloop.voder-vscode
 
 The standard installation includes Node.js and native components. A custom source-runtime deployment needs Node.js 22.19 or later and the matching native binaries. Settings, private configuration files and paths belong to the workspace host. In Remote SSH, that is the remote machine.
 
+### Manual VSIX installation
+
 **Release v0.1.49.** The [GitHub release](https://github.com/brucewang123456789/Voder/releases/tag/v0.1.49) includes a Windows-focused update for Git workspace path matching and Modal SDK loading. Windows local projects use the bundled local host runtime; Remote SSH workspaces continue to use the runtime on the remote Linux workspace host. Treat these as separate execution environments: a successful Remote SSH task does not establish that a local Windows task has passed the same end-to-end checks.
 
 For the exact v0.1.49 release artifact, download [Voder.vsix](https://github.com/brucewang123456789/Voder/releases/download/v0.1.49/Voder.vsix). The release asset was verified at publication with SHA-256 `c763a0dd1d74e7a5afbc40df94e08ca22eb5b768c6fa8c35f5710c7f71185f75`. This integrity check does not certify every native runtime or local writeback scenario.
+
+To install the downloaded package, open the Extensions view, select **… → Install from VSIX…**, and choose `Voder.vsix`. Alternatively, run `code --install-extension Voder.vsix`.
 
 ## Configure Voder
 
@@ -318,32 +333,32 @@ The technical report records fixed-denominator local reward audits under the aut
 
 | Benchmark | Confirmed passes | Score | Retained records |
 |---|---:|---:|---|
-| DeepSWE v1.1 | 89 / 113 | **78.8%** | [DeepSWE v1.1 evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results/deepswe-1.1) |
-| Terminal-Bench 3.0 | 31 / 74 | **41.9%** | [Terminal-Bench 3.0 evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results/terminal-bench-3.0) |
-| Terminal-Bench 4.0 | 30 / 66 | **45.5%** | [Terminal-Bench 4.0 evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results/terminal-bench-4.0) |
-| SWE-Marathon | 9 / 20 | **45.0%** | [SWE-Marathon evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results/swe-marathon) |
+| DeepSWE v1.1 | 89 / 113 | **78.8%** | [DeepSWE v1.1 evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results/deepswe-1.1) |
+| Terminal-Bench 3.0 | 31 / 74 | **41.9%** | [Terminal-Bench 3.0 evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results/terminal-bench-3.0) |
+| Terminal-Bench 4.0 | 30 / 66 | **45.5%** | [Terminal-Bench 4.0 evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results/terminal-bench-4.0) |
+| SWE-Marathon | 9 / 20 | **45.0%** | [SWE-Marathon evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results/swe-marathon) |
 
-These are author-reported reward audits. Official leaderboard standing is outside their scope. SWE-Marathon used reference assistance as an internal control. The public folders contain retained records and may cover only a subset of a suite. Use the report's denominator and inspect `official_evaluation.json` for each task. [Browse all retained evidence](https://github.com/brucewang123456789/Voder/tree/main/.eval_results).
+These are author-reported reward audits. Official leaderboard standing is outside their scope. SWE-Marathon used reference assistance as an internal control. The public folders contain retained records and may cover only a subset of a suite. Use the report's denominator and inspect `official_evaluation.json` for each task. [Browse all retained evidence](https://github.com/brucewang123456789/Voder/tree/voder/.eval_results).
 
 The report separately records **318/318** component checks, **420/420** stress executions, **11/11** SDK recovery assertions and **3/3** blocked-state daemon restart cases. The **93.3%–98.7%** context reduction is an estimate from synthetic histories. It measures estimated token volume under those fixtures.
 
 ## Interactive 3D demos
 
-Download the HTML for a demo and open it in a browser. The files are linked individually for inspection and comparison. [Browse all demo files](https://github.com/brucewang123456789/Voder/tree/main/demos).
+Download the HTML for a demo and open it in a browser. The files are linked individually for inspection and comparison. [Browse all demo files](https://github.com/brucewang123456789/Voder/tree/voder/demos).
 
 | Demo | DeepSeek V4.1 Flash 1017 | GPT-6 Astra |
 |---|---|---|
-| Cycling pelican | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/pelican/deepseek-v4.1-flash-1017.html) | — |
-| Reusable-booster recovery | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/rocket/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/rocket/gpt-6-astra.html) |
-| Black-hole visualization | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/black-hole/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/black-hole/gpt-6-astra.html) |
-| Wormhole exploration | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/wormhole/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/wormhole/gpt-6-astra.html) |
-| Interactive racing | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/racing-game/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/main/demos/racing-game/gpt-6-astra.html) |
+| Cycling pelican | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/pelican/deepseek-v4.1-flash-1017.html) | — |
+| Reusable-booster recovery | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/rocket/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/rocket/gpt-6-astra.html) |
+| Black-hole visualization | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/black-hole/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/black-hole/gpt-6-astra.html) |
+| Wormhole exploration | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/wormhole/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/wormhole/gpt-6-astra.html) |
+| Interactive racing | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/racing-game/deepseek-v4.1-flash-1017.html) | [HTML](https://github.com/brucewang123456789/Voder/blob/voder/demos/racing-game/gpt-6-astra.html) |
 
 These applications demonstrate delivered browser artifacts. The booster and astronomy scenes are authored visualizations. Their scope does not include aerospace or relativistic simulation validation.
 
 ## Source layout
 
-The GitHub source distribution includes the VGR runtime, CLI, SDK and editor adapter. Use the source build for CLI and SDK development. Editor clients can integrate through `voder rpc` (JSON-RPC 2.0 over standard input and output) or the SDK. Install the official VS Code extension through the Marketplace.
+The GitHub source distribution includes the VGR runtime, CLI, SDK and editor adapter. Use the source build for CLI and SDK development. Editor clients can integrate through `voder rpc` (JSON-RPC 2.0 over standard input and output) or the SDK. Install the official VS Code extension through the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=veriloop.voder-vscode).
 
 | Path | Contents |
 |---|---|
@@ -381,10 +396,23 @@ Voder is developed by the **VeriLoop Team** at the **Intelligent Robotics Labora
 
 Voder uses a Pi-derived engine for model sessions, streaming and context compaction. The initial upstream baseline is Pi 1.1.0 at commit `abe508e1b89912adde45528136c3221eb69acdd7`. The VeriLoop Team developed VGR and its verified delivery path. [Pi upstream](https://github.com/earendil-works/pi) · [Upstream attribution](voder-agent/docs/VODER_UPSTREAM_ATTRIBUTION.md)
 
+## Community recognition
+
+Voder has been featured by the **ModelScope community (魔搭社区)** through its public social media channel. [View the ModelScope feature on X](https://x.com/ModelScope2022/status/2121237268241231885).
+
 ## License
 
 Voder-authored code is released under [Apache-2.0](LICENSE). Pi retains its MIT license, and bundled third-party components and fixtures retain their applicable licenses. See [NOTICE](NOTICE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for attribution.
 
 ## Contact
 
-For technical discussions, research collaboration or business inquiries, reach **Libo Wang** by [email](mailto:free.equality.anyone@gmail.com) or [LinkedIn](https://www.linkedin.com/in/libo-wang-1612801a2). For the lab’s public research projects, see the [Intelligent Robotics Laboratory on Hugging Face](https://huggingface.co/tsinghua-sigs-robot-lab).
+**Libo Wang** — VeriLoop Team Lead and Voder Project Lead
+
+Intelligent Robotics Laboratory, Tsinghua Shenzhen International Graduate School
+
+For technical discussions, research collaboration, commercial partnerships or other project inquiries:
+
+- **Email:** [free.equality.anyone@gmail.com](mailto:free.equality.anyone@gmail.com)
+- **LinkedIn:** [linkedin.com/in/libo-wang-1612801a2](https://www.linkedin.com/in/libo-wang-1612801a2)
+- **Research projects:** [Intelligent Robotics Laboratory on Hugging Face](https://huggingface.co/tsinghua-sigs-robot-lab)
+- **Bug reports and feature requests:** [GitHub Issues](https://github.com/brucewang123456789/Voder/issues)
